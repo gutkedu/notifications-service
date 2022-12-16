@@ -12,6 +12,7 @@
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": false,
@@ -21,7 +22,7 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
       "@app/*": ["./src/app/*"],
-      "@helpers/*": ["./src/app/core/*"],
+      "@helpers/*": ["./src/helpers/*"],
       "@infra/*": ["./src/infra/*"],
       "@test/*": ["./test/*"]
     }
